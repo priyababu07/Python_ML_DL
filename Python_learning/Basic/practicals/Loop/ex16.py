@@ -9,7 +9,30 @@ for m in range(1,5):
        print("*",end="")
     print("\n")
 # #Third pattern
-# for l in range(1,5,-1):
-#     for k in range(l):
-#        print("*",end="")
-#     print("\n")
+k = 0
+
+for i in range(1, 5+1):
+    for space in range(1, (5-i)+1):
+        print(end="  ")
+   
+    while k!=(2*i-1):
+        print("* ", end="")
+        k += 1
+   
+    k = 0
+    print()
+
+  # five
+for i in range(1, 6):
+    print(str(i) * (2 * i - 1))
+#six
+for i in range(1, 6):
+    
+    for j in range(i, 0, -1):
+        print(j, end="")
+  
+    for j in range(2, i + 1):
+        print(j, end="")
+    print()
+
+
