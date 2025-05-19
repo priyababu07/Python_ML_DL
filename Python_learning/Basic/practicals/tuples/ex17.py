@@ -1,0 +1,5 @@
+tuple_list = (1,2,3,4,5)
+l = list(tuple_list[:2])
+print(l)
+l2 = list(tuple_list[2:])
+print(l2)

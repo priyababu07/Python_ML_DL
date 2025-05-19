@@ -1,0 +1,6 @@
+thistuple2 = (1,2,3,4,5)
+y = list(thistuple2)
+y.append(100)
+# print(y)
+k = tuple(y)
+print(k)
